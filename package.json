@@ -1,0 +1,24 @@
+{
+  "name": "brain-games",
+  "version": "1.0.0",
+  "description": "\"First node.js project: console games\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzavolskaya/project-lvl1-s454.git"
+  },
+  "keywords": [
+    "hexlet",
+    "node.js",
+    "brain-games"
+  ],
+  "author": "Darya Zavolskaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dzavolskaya/project-lvl1-s454/issues"
+  },
+  "homepage": "https://github.com/dzavolskaya/project-lvl1-s454#readme"
+}
