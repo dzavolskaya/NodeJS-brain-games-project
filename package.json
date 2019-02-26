@@ -1,5 +1,5 @@
 {
-  "name": "dzavolskaya_simple_brain-games",
+  "name": "dz-games",
   "version": "0.0.1",
   "description": "\"First node.js project: console games\"",
   "main": "dist/index.js",
