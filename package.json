@@ -2,7 +2,7 @@
   "name": "DZ_simple_brain-games",
   "version": "0.0.1",
   "description": "\"First node.js project: console games\"",
-  "main": "index.js",
+  "main": "dist/index.js",
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
   },
