@@ -1,1 +1,1 @@
-# project-lvl1-s454 Feb 2019
+# Welcome to my first Nodejs Hexlet Project "Brain-games"
