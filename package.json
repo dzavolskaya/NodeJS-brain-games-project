@@ -1,6 +1,6 @@
 {
   "name": "dz-games",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "\"First node.js project: console games\"",
   "main": "dist/index.js",
   "bin": {
