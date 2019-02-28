@@ -11,4 +11,4 @@ To install the npm package **dz-games**, type in the command-line:
 
 to play this game, type `brain-even` in the command-line
 
-<asciinema-player src="https://asciinema.org/a/2N1Tm0NXi4fJz39BUXy1QVRl2" ></asciinema-player>
+<asciinema-player src="https://asciinema.org/a/2N1Tm0NXi4fJz39BUXy1QVRl2" poster="npt:2:34"></asciinema-player>
