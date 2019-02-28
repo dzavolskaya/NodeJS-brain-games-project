@@ -7,8 +7,8 @@
 To install the npm package **dz-games**, type in the command-line:
 `npm install dz-games -g`
 
-### 1. brain-even
+### Brain-Game "Is Even?"
 
 to play this game, type `brain-even` in the command-line
 
-https://asciinema.org/a/2N1Tm0NXi4fJz39BUXy1QVRl2
+[![asciicast](https://asciinema.org/a/XsfsZ3xryQwuOXTsGl4AEDUqr.png)](https://asciinema.org/a/XsfsZ3xryQwuOXTsGl4AEDUqr)
