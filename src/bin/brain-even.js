@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-import runEvenGame from '../games/even';
-import { greet } from '..';
+import generateEvenGame from '../games/even';
 
-greet();
-runEvenGame();
+generateEvenGame();
