@@ -1,25 +1,35 @@
 // game asking a user to compute a proposed mathematical expression consisting of random numbers
 // then input calculation resulting in a win or loss.
 import { cons } from 'hexlet-pairs';
-import { generateGame, generateRandom } from '..';
+import generateGame from '..';
+import generateRandom from '../utils';
 
 const gameDescription = '=== What is the result of the expression? ===';
 
 const myArray = ['-', '+', '*'];
 
+// define range for random numbers for mathematical operations
+const lowerRange = 1;
+const upperRange = 20;
+
 const runCalcGame = () => {
-  const firstNumber = generateRandom(20);
-  const secondNumber = generateRandom(20);
-  // generate index from 0 to 2 and choose an element from myArray
-  const randomOperand = myArray[generateRandom(3)];
+  const firstNumber = generateRandom(lowerRange, upperRange);
+  const secondNumber = generateRandom(lowerRange, upperRange);
+  // generate index and choose an element from myArray
+  const randomOperand = myArray[generateRandom(0, myArray.length - 1)];
   const question = `${firstNumber}${randomOperand}${secondNumber}`;
   let answer = '';
-  if (randomOperand === '-') {
-    answer = `${firstNumber - secondNumber}`;
-  } else if (randomOperand === '+') {
-    answer = `${firstNumber + secondNumber}`;
-  } else if (randomOperand === '*') {
-    answer = `${firstNumber * secondNumber}`;
+  switch (randomOperand) {
+    case '-':
+      answer = `${firstNumber - secondNumber}`;
+      break;
+    case '+':
+      answer = `${firstNumber + secondNumber}`;
+      break;
+    case '*':
+      answer = `${firstNumber * secondNumber}`;
+      break;
+    // no default
   }
   return cons(question, answer);
 };
