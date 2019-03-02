@@ -4,7 +4,7 @@ import { cons } from 'hexlet-pairs';
 import generateGame from '..';
 import generateRandom from '../utils';
 
-const gameDescription = '=== Find the greatest common divisor of given numbers ===';
+const gameDescription = 'Find the greatest common divisor of given numbers';
 
 // define range for random numbers for mathematical operations
 const minRange = 2;
@@ -17,22 +17,12 @@ const gcd = (x, y) => {
   }
   return gcd(y, x % y);
 };
-// function to sort parameters and return the result
-const computeGCD = (x, y) => {
-  let divident = x;
-  let divisor = y;
-  if (y > x) {
-    divident = y;
-    divisor = x;
-  }
-  return gcd(divident, divisor);
-};
 
 const runGCDGame = () => {
   const firstNumber = generateRandom(minRange, maxRange);
   const secondNumber = generateRandom(minRange, maxRange);
   const question = `${firstNumber} ${secondNumber}`;
-  const answer = `${computeGCD(firstNumber, secondNumber)}`;
+  const answer = `${gcd(firstNumber, secondNumber)}`;
   return cons(question, answer);
 };
 

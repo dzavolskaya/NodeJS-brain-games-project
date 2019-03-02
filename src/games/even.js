@@ -4,7 +4,7 @@ import { cons } from 'hexlet-pairs';
 import generateGame from '..';
 import generateRandom from '../utils';
 
-const gameDescription = '=== Answer \'yes\' if number is even otherwise answer \'no\' ===';
+const gameDescription = 'Answer \'yes\' if number is even otherwise answer \'no\'';
 
 const isEven = num => (num % 2 === 0);
 

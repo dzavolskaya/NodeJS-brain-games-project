@@ -4,7 +4,7 @@ import { cons } from 'hexlet-pairs';
 import generateGame from '..';
 import generateRandom from '../utils';
 
-const gameDescription = '=== What is the result of the expression? ===';
+const gameDescription = 'What is the result of the expression?';
 
 const myArray = ['-', '+', '*'];
 

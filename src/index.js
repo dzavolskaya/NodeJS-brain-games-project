@@ -7,7 +7,7 @@ const numberRounds = 3;
 // launch game flow
 export default (gameDescription, gameData) => {
   console.log('Welcome to the Brain Games!');
-  console.log(`${gameDescription}\n`);
+  console.log(`=== ${gameDescription} ===\n`);
   // ask for player's name
   const name = readlineSync.question('Let\'s get started! May I have your name?\n==> ');
   console.log(`Hello,${name}!\n`);
@@ -21,7 +21,8 @@ export default (gameDescription, gameData) => {
     if (currentAnswer === correctAnswer) {
       console.log('Correct!');
     } else {
-      console.log(`${currentAnswer} is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`);
+      console.log(`${currentAnswer} is a wrong answer ;(. Correct answer was ${correctAnswer}`);
+      console.log(`Let's try again, ${name}!`);
       return; // end of game round
     }
   }
