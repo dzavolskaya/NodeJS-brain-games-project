@@ -26,3 +26,9 @@ to play this game, type `brain-calc` in the command-line
 to play this game, type `brain-gcd` in the command-line
 
 [![asciicast](https://asciinema.org/a/taqjDSh9OQ2tjnwOythCVZhgf.png)](https://asciinema.org/a/taqjDSh9OQ2tjnwOythCVZhgf)
+
+### Brain-Game "What number is missing in the progression?"
+
+to play this game, type `brain-progression` in the command-line
+
+[![asciicast](https://asciinema.org/a/DrTodgYRTTzwudnPvlEitZgGf.png)](https://asciinema.org/a/DrTodgYRTTzwudnPvlEitZgGf)
