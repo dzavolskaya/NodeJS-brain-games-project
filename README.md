@@ -2,19 +2,27 @@
 
 <a href="https://codeclimate.com/github/dzavolskaya/project-lvl1-s454/maintainability"><img src="https://api.codeclimate.com/v1/badges/9fd761959a85855ba8f1/maintainability" /></a> [![Build Status](https://travis-ci.com/dzavolskaya/project-lvl1-s454.svg?branch=master)](https://travis-ci.com/dzavolskaya/project-lvl1-s454)
 
-### Games: how to install and to play
+### Games: how to install and play
 
 To install the npm package **dz-games**, type in the command-line:
 `npm install dz-games -g`
+
+[![asciicast](https://asciinema.org/a/pBAWIOOHjhli6EsNi7vkJRYdy.png)](https://asciinema.org/a/pBAWIOOHjhli6EsNi7vkJRYdy)
 
 ### Brain-Game "Is this number even?"
 
 to play this game, type `brain-even` in the command-line
 
-[![asciicast](https://asciinema.org/a/XsfsZ3xryQwuOXTsGl4AEDUqr.png)](https://asciinema.org/a/XsfsZ3xryQwuOXTsGl4AEDUqr)
+[![asciicast](https://asciinema.org/a/xHHsI4Oi6kvQSrgY0grjZlwX8.png)](https://asciinema.org/a/xHHsI4Oi6kvQSrgY0grjZlwX8)
 
 ### Brain-Game "What is the result of the expression?"
 
 to play this game, type `brain-calc` in the command-line
 
-[![asciicast](https://asciinema.org/a/Uv2gPLKhvLVZMoGOxFP4IRDcu.png)](https://asciinema.org/a/Uv2gPLKhvLVZMoGOxFP4IRDcu)
+[![asciicast](https://asciinema.org/a/gUcFWpBmmzMfOcBqZZ5qqzF4G.png)](https://asciinema.org/a/gUcFWpBmmzMfOcBqZZ5qqzF4G)
+
+### Brain-Game "Find the greatest common divisor of given numbers"
+
+to play this game, type `brain-gcd` in the command-line
+
+[![asciicast](https://asciinema.org/a/taqjDSh9OQ2tjnwOythCVZhgf.png)](https://asciinema.org/a/taqjDSh9OQ2tjnwOythCVZhgf)
