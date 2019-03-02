@@ -9,12 +9,12 @@ const gameDescription = '=== Answer \'yes\' if number is even otherwise answer \
 const isEven = num => (num % 2 === 0);
 
 // define range for highest and lowest values possible
-const lowerRange = 1;
-const upperRange = 20;
+const minRange = 1;
+const maxRange = 20;
 
 const runEvenGame = () => {
   // generate a random number from 0 to 10000
-  const question = generateRandom(lowerRange, upperRange);
+  const question = generateRandom(minRange, maxRange);
   const answer = isEven(question) ? 'yes' : 'no';
   return cons(question, answer);
 };

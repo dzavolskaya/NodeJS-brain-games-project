@@ -9,12 +9,12 @@ const gameDescription = '=== What is the result of the expression? ===';
 const myArray = ['-', '+', '*'];
 
 // define range for random numbers for mathematical operations
-const lowerRange = 1;
-const upperRange = 20;
+const minRange = 1;
+const maxRange = 20;
 
 const runCalcGame = () => {
-  const firstNumber = generateRandom(lowerRange, upperRange);
-  const secondNumber = generateRandom(lowerRange, upperRange);
+  const firstNumber = generateRandom(minRange, maxRange);
+  const secondNumber = generateRandom(minRange, maxRange);
   // generate index and choose an element from myArray
   const randomOperand = myArray[generateRandom(0, myArray.length - 1)];
   const question = `${firstNumber}${randomOperand}${secondNumber}`;
