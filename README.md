@@ -32,3 +32,9 @@ to play this game, type `brain-gcd` in the command-line
 to play this game, type `brain-progression` in the command-line
 
 [![asciicast](https://asciinema.org/a/DrTodgYRTTzwudnPvlEitZgGf.png)](https://asciinema.org/a/DrTodgYRTTzwudnPvlEitZgGf)
+
+### Brain-Game "Is this number prime?"
+
+to play this game, type `brain-prime` in the command-line
+
+[![asciicast](https://asciinema.org/a/cA4QznP5fWGU3CkLlhbyVDRgZ.png)](https://asciinema.org/a/cA4QznP5fWGU3CkLlhbyVDRgZ)
