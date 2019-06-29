@@ -1,6 +1,6 @@
 # Nodejs Hexlet project "Brain-games"
 
-<a href="https://codeclimate.com/github/dzavolskaya/project-lvl1-s454/maintainability"><img src="https://api.codeclimate.com/v1/badges/9fd761959a85855ba8f1/maintainability" /></a> [![Build Status](https://travis-ci.com/dzavolskaya/project-lvl1-s454.svg?branch=master)](https://travis-ci.com/dzavolskaya/project-lvl1-s454)
+<a href="https://codeclimate.com/github/dzavolskaya/NodeJS-brain-games-project/maintainability"><img src="https://api.codeclimate.com/v1/badges/702634b52990106d6355/maintainability" /></a> [![Build Status](https://travis-ci.com/dzavolskaya/NodeJS-brain-games-project.svg?branch=master)](https://travis-ci.com/dzavolskaya/NodeJS-brain-games-project)
 
 ### Games: how to install and play
 
