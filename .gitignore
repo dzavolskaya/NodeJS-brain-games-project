@@ -6,3 +6,5 @@ dist
 
 # ignore all logs
 *.log
+
+.DS_Store
